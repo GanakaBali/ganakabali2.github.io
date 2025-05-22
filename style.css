@@ -77,3 +77,24 @@ transform: translateY(-10px);
 footer {
   margin-top: 50px;
 }
+
+
+/* Responsive font untuk layar kecil */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  i {
+    font-size: 20px;
+    margin: 0 6px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+}
